@@ -1,0 +1,80 @@
+.asteroid {
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.asteroid,
+.asteroid-property,
+body,
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.asteroid,
+body {
+    background: black;
+}
+
+#asteroid-list {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-bottom: 1rem;
+}
+
+#asteroid-list,
+body {
+    padding: 0 0.5rem;
+}
+
+.asteroid-name {
+    align-self: flex-end;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+}
+
+.asteroid-property {
+    border-bottom: 1px dotted lightgray;
+}
+
+.asteroid-properties-list {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body,
+footer a {
+    color: lightgray;
+}
+
+body,
+.content-container,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.content-container {
+    margin-top: 1.5em;
+    max-width: 500px;
+}
+
+.data-value {
+    align-self: flex-end;
+    color: #007bff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.page-title {
+    font-size: 3rem;
+}
