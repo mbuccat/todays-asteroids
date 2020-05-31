@@ -13,6 +13,7 @@ app.use(express.static('public'));
 // Set port for client requests
 const port = process.env.PORT || 5500;
 app.listen(port);
+console.log(`Server started at ${port}`);
 
 // When the client loads the site, they send the server their local timestamp
 // which we use to query a NASA API for the current asteroid data
